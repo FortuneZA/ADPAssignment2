@@ -133,6 +133,8 @@ public class Main
 
   }
 
+//Collections Interface
+
   public void myCollection()
   {
       Collection<Object> contestantProfile= new ArrayList<Object>();
