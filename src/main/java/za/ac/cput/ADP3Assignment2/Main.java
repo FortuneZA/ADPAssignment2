@@ -33,6 +33,7 @@ public class Main
         System.out.println("--------------------------------------");
 
         //remove
+
         System.out.println("Removed Element\n");
         standards.remove(1);
 
@@ -44,6 +45,7 @@ public class Main
         System.out.println("--------------------------------------");
 
         //Find
+
         System.out.println("\nFinding a value: \n");
         boolean doesContain = standards.contains("C grade");
 
@@ -75,6 +77,7 @@ public class Main
         System.out.println("--------------------------------------");
 
        //remove
+
         System.out.println("Removed Element: \n");
        accuracy.remove(59.7);
 
@@ -85,6 +88,7 @@ public class Main
         System.out.println("--------------------------------------");
 
         //Find
+
         System.out.println("\nFinding a value: \n");
         boolean doesContain2 = accuracy.contains(100.0);
         System.out.println("Is there an accuracy of 100.0?: "+doesContain2);
@@ -98,6 +102,7 @@ public class Main
       Map<String,String> contestants = new HashMap<>();
 
       //Add
+
       contestants.put("Contestant1","Adams");
       contestants.put("Contestant2","Jones");
       contestants.put("Contestant3","Fortuin");
@@ -125,6 +130,7 @@ public class Main
       System.out.println("--------------------------------------");
 
       //Find
+
       System.out.println("\nFinding a value: \n");
       String findVal = "Fortuin";
       Boolean doesContain3 = contestants.containsValue(findVal);
@@ -157,6 +163,7 @@ public class Main
       System.out.println("--------------------------------------");
 
       //Remove
+
       System.out.println("Removed Element:\n");
 
       contestantProfile.remove(35);
@@ -167,6 +174,7 @@ public class Main
       }
 
       //Find
+
       System.out.println("\nFinding a value: \n");
       String findVal ="South African Shooting Academy";
       Boolean doesContain4 = contestantProfile.contains(findVal);
