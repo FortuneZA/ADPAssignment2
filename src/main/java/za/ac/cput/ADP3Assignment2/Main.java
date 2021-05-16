@@ -182,8 +182,11 @@ public class Main
 
         Main run = new Main();
 
+        //******Uncomment to run method******
+
+
         //List Interface Method
-        run.myArrayList();
+        //run.myArrayList();
 
         //Set Interface Method
         //run.myHashSet();

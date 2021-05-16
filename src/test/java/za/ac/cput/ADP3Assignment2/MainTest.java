@@ -7,6 +7,12 @@ import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
+/*
+Author:Mathew Fortuin (219069514)
+Date: 16/5/2021
+Maven TDD: Test class used to test my methods
+ */
 class MainTest
 {
 
